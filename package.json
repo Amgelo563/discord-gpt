@@ -1,0 +1,24 @@
+{
+  "name": "discord-gpt",
+  "version": "1.0.0",
+  "description": "Simple script to use GPT models in a Discord channel.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "keywords": [
+    "discord",
+    "chatgpt"
+  ],
+  "author": "Amgelo563",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "discord.js": "14.16.3",
+    "openai": "4.68.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "packageManager": "pnpm@8.15.4+sha1.c85a4305534f76d461407b59277b954bac97b5c4"
+}
